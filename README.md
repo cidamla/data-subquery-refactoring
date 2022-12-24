@@ -49,11 +49,6 @@ Can you see that the main part has already been done in the 2 previous questions
 - Implement `top_ordered_product_per_customer` to get the list of the top ordered product (in terms of amount of money not quantity) by each customer, based on the total ordered amount in **USD** and sorted decreasingly.
 - This function should return a list of tuples like (`CustomerID`, `ProductID`, `OrderedAmount`).
 
-### Average number of days between orders
-
-- Implement `average_number_of_days_between_orders` to get the average number of days between two consecutive orders of the same customer.
-- This function should return a simple `int`.
-
 ## Key learning points
 
 - Subquery factoring allows you create temporary tables which you can then query.
